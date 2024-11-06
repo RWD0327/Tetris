@@ -1,0 +1,6 @@
+{
+  "name" : "Tetris",
+  "image": "mcr.microsoft.com/devcontainers/arch",
+  "features": {
+  }
+}
