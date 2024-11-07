@@ -4,10 +4,31 @@
     "dockerfile": "Dockerfile"
   },
   "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.makefile-tools",
+        "blindtiger.masm",
+        "rights.nas-vscode",
+        "donjayamanne.python-extension-pack",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "maziac.asm-code-lens",
+        "blindtiger.masm"
+      ],
       "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
       }
-    },
+    }
+  }, // Added a comma here
   "remoteUser": "dev",
   "postCreateCommand": "sudo pacman -S --noconfirm gcc make nano qemu nasm glfw"
 }
